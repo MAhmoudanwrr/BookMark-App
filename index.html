@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- ======header===== -->
+    <header class="w-75 mx-auto">
+        <div class="container">
+            <h1 class="py-4 text-muted">Bookmarker</h1>
+            <hr>
+        </div>
+    </header>
+    <!-- ======main section===== -->
+    <main id="bookmark" class="w-75 mx-auto">
+        <div class="container bg-gradient text-center p-2 ">
+            <h2 class="fw-bold my-3">
+                Bookmark your favorite sites
+            </h2>
+            <div id="form " class="my-5 w-75 mx-auto">
+                <label class="fw-bold" for="bName">Site Name</label>
+                <input class="form-control my-2" type="text" name="bName" id="bName" placeholder="Bookmark Name">
+                <label class="fw-bold" for="siteUrl">Site URL</label>
+                <input class="form-control my-2" type="text" name="siteUrl" id="siteUrl" placeholder="Website URL">
+                <button class="btn btn-success  my-2" disabled >Submit</button>
+            </div>
+        </div>
+    </main>
+    <!-- =====table===== -->
+    <section class="container w-75 my-3 p-2">
+        <table class="table">
+            <thead></thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ======footer===== -->
+    <footer class="w-75 mx-auto">
+        <div class="container">
+            <hr>
+            <p class="py-2 text-muted">© 2019 Bookmarker Inc.</p>
+
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
